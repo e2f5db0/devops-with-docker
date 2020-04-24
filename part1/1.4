@@ -1,0 +1,13 @@
+
+docker run -d --name clock devopsdockeruh/exec_bash_exercise
+
+docker exec -it clock bash
+
+tail -f ./logs.txt
+
+Fri, 24 Apr 2020 16:19:25 GMT
+Fri, 24 Apr 2020 16:19:28 GMT
+Fri, 24 Apr 2020 16:19:31 GMT
+Fri, 24 Apr 2020 16:19:34 GMT
+Secret message is:
+"Docker is easy"
